@@ -1,0 +1,12 @@
+C:\Users\minghua\Desktop\students\students\bin\Debug\students.exe.config
+C:\Users\minghua\Desktop\students\students\bin\Debug\students.exe
+C:\Users\minghua\Desktop\students\students\bin\Debug\students.pdb
+C:\Users\minghua\Desktop\students\students\bin\Debug\students.xml
+C:\Users\minghua\Desktop\students\students\obj\Debug\students.Form1.resources
+C:\Users\minghua\Desktop\students\students\obj\Debug\students.Resources.resources
+C:\Users\minghua\Desktop\students\students\obj\Debug\students.vbproj.GenerateResource.Cache
+C:\Users\minghua\Desktop\students\students\obj\Debug\students.exe
+C:\Users\minghua\Desktop\students\students\obj\Debug\students.xml
+C:\Users\minghua\Desktop\students\students\obj\Debug\students.pdb
+C:\Users\MingHua\Desktop\students\students\obj\Debug\students.vbprojAssemblyReference.cache
+C:\Users\MingHua\Desktop\students\students\obj\Debug\students.vbproj.CoreCompileInputs.cache

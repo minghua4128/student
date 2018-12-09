@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+students
+</name>
+</assembly>
+<members>
+<member name="T:students.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:students.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:students.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:students.Form1.ThisStudent">
+ <summary>
+ 存放新輸入的資料，資料型態為StudentData
+ </summary>
+</member>
+<member name="F:students.Form1.SqlStudent">
+ <summary>
+ 存放資料庫裡的所有資料，資料型態為StudentData
+ </summary>
+</member>
+<member name="F:students.Form1.AllModuleMarks">
+ <summary>
+ 資料庫所有分數的總和，用來計算平均分數
+ </summary>
+</member>
+<member name="F:students.Form1.CountA">
+ <summary>
+ 評分為A的計數器
+ </summary>
+</member>
+<member name="F:students.Form1.CountF">
+ <summary>
+ 評分為F的計數器
+ </summary>
+</member>
+<member name="M:students.Form1.UpSqlData">
+ <summary>
+ 讀取資料庫資料，並將資料放在變數SqlStudent()裡面
+ </summary>
+</member>
+<member name="T:students.Module1.StudentData">
+ <summary>
+ 學生成績資料結構
+ </summary>
+</member>
+<member name="F:students.Module1.StudentData.Name">
+ <summary>
+ 學生姓名
+ </summary>
+</member>
+<member name="M:students.Module1.ChkInput(System.Windows.Forms.TextBox,System.Windows.Forms.Label)">
+ <summary>
+ 檢查資料是否合乎規則，回傳值為布林值
+ </summary>
+ <param name="InputBox">成績輸入資料，類型為TextBox</param>
+ <param name="OutputBox">錯誤訊息輸出資料，類型為Label</param>
+ <returns>回傳值為布林值</returns>
+</member>
+<member name="M:students.Module1.ChkMark(students.Module1.StudentData@)">
+ <summary>
+ 計算成績資料，回傳值為計算完畢的成績資料，資料結構為StudentData
+ </summary>
+ <param name="InputData">參數是資料結構為StudentData的成績資料</param>
+ <returns>回傳值為計算完畢的成績資料，資料結構為StudentData</returns>
+</member>
+<member name="M:students.Module1.SqlQuery(System.String)">
+ <summary>
+ 送出SQL要求，回傳值為帶索引的陣列
+ </summary>
+ <param name="SQLStr">SQL要求，為一個SQL命令字串</param>
+ <returns>回傳值為帶索引的陣列</returns>
+</member>
+</members>
+</doc>
